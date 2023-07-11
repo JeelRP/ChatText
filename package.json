@@ -1,0 +1,21 @@
+{
+  "name": "bluelight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Parth Fadadu",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.4.1"
+  }
+}
